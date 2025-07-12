@@ -1,0 +1,6 @@
+prometheusstack:
+  nameOverride: prometheusstack
+  crds:
+    enabled: true
+    upgradeJob:
+      enabled: true
