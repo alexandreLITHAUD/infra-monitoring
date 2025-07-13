@@ -4,3 +4,5 @@ prometheusstack:
     enabled: true
     upgradeJob:
       enabled: true
+uptime-kuma:
+  nameOverride: uptime-kuma
