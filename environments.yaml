@@ -1,6 +1,13 @@
 environments:
-  default:
+  prod:
     values:
       - default/values.yaml
+      - prod/values.yaml
     secrets:
-      - default/secrets.yaml
+      - prod/secrets.yaml
+  dev:
+    values:
+      - default/values.yaml
+      - dev/values.yaml
+    secrets:
+      - dev/secrets.yaml
