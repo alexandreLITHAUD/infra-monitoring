@@ -1,6 +1,6 @@
 prometheusstack:
-  nameOverride: prometheusstack-dev
+  nameOverride: prometheusstack-prod
 uptime-kuma:
-  nameOverride: uptime-kuma-dev
+  fullnameOverride: uptime-kuma-dev
   labels:
     environment: dev
